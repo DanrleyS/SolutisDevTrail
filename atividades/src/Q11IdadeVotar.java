@@ -10,7 +10,7 @@ public class Q11IdadeVotar {
         } else if (idade>= 16 && idade <18 || idade >= 65){
             System.out.println("Pode votar, com voto facultativo");
         } else {
-            System.out.println("Voto obrigatório");
+            System.out.println("Voto obrigatório.");
         }
         scanner.close();
     } 
