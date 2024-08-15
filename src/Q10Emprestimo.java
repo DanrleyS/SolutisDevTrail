@@ -12,7 +12,7 @@ public class Q10Emprestimo {
         if (emprestimo <= 0){
             System.out.println("Não é possível fazer empréstimo");
         } else{
-            System.out.println("É possivel fazer um empréstimo no valor de: " + emprestimo);
+            System.out.println("É possivel fazer um empréstimooo no valor de: " + emprestimo);
         }
         scanner.close();
     }
