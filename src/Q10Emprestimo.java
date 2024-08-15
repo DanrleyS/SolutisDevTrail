@@ -10,7 +10,7 @@ public class Q10Emprestimo {
         double emprestimo = (salarioBruto - descontos) * 0.3;
 
         if (emprestimo <= 0){
-            System.out.println("Não é possível fazer empréstimo");
+            System.out.println("Não é possível fazer empréstimo.");
         } else{
             System.out.println("É possivel fazer um empréstimo no valor de: " + emprestimo);
         }
