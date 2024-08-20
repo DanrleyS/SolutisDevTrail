@@ -45,8 +45,8 @@ empréstimo de um cliente, em seguida avise se ele poderá ou não fazer o empr�
 ou se o voto é facultativo (idade menor ou igual a 16, ou maior ou igual a 65), ou ainda se o
 voto é obrigatório.
 12. A partir de 3 notas fornecidas de um aluno, informe se ele foi aprovado, ficou de
-recuperação ou foi reprovado. A média de aprovação é >= 7.0; a média de recuperação é
->= 5.0 e < 7.0; e a média do reprovado é < 5.0
+recuperação ou foi reprovado. A média de aprovação é >= 7.0; a média de recuperação
+é >= 5.0 e < 7.0; e a média do reprovado é < 5.0
 13. Acrescente no problema anterior possibilidade dele fazer prova final em caso de
 recuperação. Neste caso a nota de aprovação passa a ser >= 5.0
 14. Receba do usuário o nome de um mês. Exiba o número equivalente.
@@ -65,10 +65,13 @@ partir destas informações, apresente a idade atual desta pessoa.
 velha e o nome da pessoa mais nova.
 21. Exiba o valor do empréstimo possível para um funcionário de uma empresa.
 Sabe-se:
-  Cargo     |   % do salário
-Diretoria   |       30%
-Gerência    |       25%
-Operacional |       20%
+
+| Cargo    | % do salário |
+| -------- | ------------ |
+|Diretoria |  30%         |
+| Gerência | 25%          |
+| Operacional | 20%       |
+
 22. Verifique se duas datas de aniversário (dia e mês) são iguais.
 23. Verifique quem entre duas pessoas faz aniversário primeiro. Exiba o nome do primeiro
 aniversariante considerando que estamos no dia 1 de janeiro. Use como entrada o nome, o
@@ -209,16 +212,102 @@ quantidade de dias fornecida. Exemplo: 29/04/2007 + 3 = 02/05/2007.
 partir de janeiro de 2007. Solicite o valor da dívida, a taxa de correção e a quantidade de anos.
 Por exemplo, para uma dívida de R$ 100,00 ao longo de 2 anos e com uma taxa de correção de 1.8
 % ao mês:
-Anos | Jan   | Fev   | Mar   | Abr   | Mai   | Jun   | Jul   | Ago   | Set   | Out   | Nov   | Dez
-2007 |100,00 |101,80 |103,63 |105,50 |107,40 |109,33 |111,30 |113,30 |115,34 |117,42 |119,53 |121,68
-2008 |123,87 |126,10 |128,37 |130,68 |133,03 |135,43 |137,87 |140,35 |142,87 |145,45 |148,06 |150,73
+
+| Anos | Jan    | Fev    | Mar    | Abr    | Mai    | Jun    | Jul    | Ago    | Set    | Out    | Nov    | Dez    |
+|------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| 2007 | 100,00 | 101,80 | 103,63 | 105,50 | 107,40 | 109,33 | 111,30 | 113,30 | 115,34 | 117,42 | 119,53 | 121,68 |
+| 2008 | 123,87 | 126,10 | 128,37 | 130,68 | 133,03 | 135,43 | 137,87 | 140,35 | 142,87 | 145,45 | 148,06 | 150,73 |
+
+
 61. Desenhe a seguinte pirâmide de asteriscos. O usuário determina a quantidade de linhas.
-
+```plaintext
+*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+***********
+************
+...
+```
 62. Desenhe a seguinte pirâmide de números. O usuário determina a quantidade de linhas.
-
+```
+01
+02 02
+03 03 03
+04 04 04 04
+05 05 05 05 05
+06 06 06 06 06 06
+07 07 07 07 07 07 07
+08 08 08 08 08 08 08 08
+09 09 09 09 09 09 09 09 09
+10 10 10 10 10 10 10 10 10 10
+11 11 11 11 11 11 11 11 11 11 11
+...
+```
 63. Desenhe a seguinte pirâmide de números. O usuário determina a quantidade de linhas.
-
+```
+01
+01 02
+01 02 03
+01 02 03 04
+01 02 03 04 05
+01 02 03 04 05 06
+01 02 03 04 05 06 07
+01 02 03 04 05 06 07 08
+01 02 03 04 05 06 07 08 09
+01 02 03 04 05 06 07 08 09 10
+01 02 03 04 05 06 07 08 09 10 11
+...
+```
 64. Desenhe a seguinte seqüência de triângulos. O usuário determina a quantidade de
 triângulos.
+```
+*
+*
+**
+*
+**
+***
+*
+**
+***
+****
+*
+**
+***
+****
+*****
+*
+**
+***
+****
+*****
+******
+*
+**
+***
+****
+*****
+******
+*******
+...
+```
 
 65. Desenhe a seguinte pirâmide de asteriscos. O usuário determina a quantidade de linhas.
+```
+       *
+      ***
+     *****
+    *******
+   *********
+  ***********
+ *************
+***************
+...
+```
