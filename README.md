@@ -1,6 +1,7 @@
 # 📚 Solutis School Dev Trail
 
 Este repositório contém uma série de exercícios propostos pela Solutis School Dev Trail. Os exercícios foram resolvidos em Java, desenvolvidos por diferentes contribuintes para demonstrar suas habilidades na linguagem Java.
+As questões foram realizadas usando a IDE IntelliJ, e que portanto a resolução se encontra dentro da pasta "src", sendo que cada questão começa com um "Q" e o seu numero de referência.
 
 ## 🤝 Contribuintes
 
