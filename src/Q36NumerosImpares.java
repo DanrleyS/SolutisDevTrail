@@ -12,7 +12,7 @@ public class Q36NumerosImpares{
         System.out.println("Informe o segundo valor:");
         num2 = input.nextInt();
 
-        // Trocando valores para garantir que num1 sempre seja o maior
+        // Trocando valores para garantir que num1 sempre seja o maior valor
         if (num1 > num2) {
             int temp = num1;
             num1 = num2;

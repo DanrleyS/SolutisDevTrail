@@ -11,10 +11,10 @@ public class Q21Emprestimo {
         double percentual = 0.0;
         double valorEmprestimo;
 
-        
+
         System.out.println("Informe o cargo do funcionário (Diretoria, Gerência, Operacional):");
         cargo = input.nextLine().toLowerCase();
-        cargo = cargo.replaceAll("[\\p{M}]", ""); 
+        cargo = cargo.replaceAll("[\\p{M}]", "");
 
 
         while (!cargo.equals("diretoria") && !cargo.equals("gerencia") && !cargo.equals("operacional"))
@@ -38,7 +38,7 @@ public class Q21Emprestimo {
                 percentual = 0.20;
                 break;
         }
-        
+
 
         //calculando o valor do emprestimo
         valorEmprestimo = salario * percentual;
@@ -46,7 +46,7 @@ public class Q21Emprestimo {
         System.out.printf("\nO valor do empréstimo possível para o cargo de "+ cargo + " é R$" + valorEmprestimo);
         input.nextLine(); // Consumir a nova linha pendente
 
-     
+
         input.close();
     }
 }

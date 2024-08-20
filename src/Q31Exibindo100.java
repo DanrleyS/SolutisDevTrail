@@ -5,8 +5,7 @@ public class Q31Exibindo100 {
         {
             System.out.println(100);
         }
-
         System.out.println("Fim do código");
-    
+
     }
 }

@@ -5,6 +5,6 @@ public class Q32Exibindo1A500 {
         {
             System.out.print(i + " ");
         }
-   
+
     }
 }
