@@ -29,7 +29,5 @@ public class Q35SorteioPersonalizado{
 
         }
 
-        //Número esta repetindo ...
-
     }
 }
