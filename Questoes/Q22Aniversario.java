@@ -10,8 +10,6 @@ public class Q22Aniversario {
         int dia2;
         int mes2;
 
-        //nota: pensar em um forma de validacao melhor que while
-
         System.out.println("Digite o dia da primeira data de aniversário:");
         dia1 = input.nextInt();
         System.out.println("Digite o mês da primeira data de aniversário(em numero):");
