@@ -12,8 +12,5 @@ public class Q34Sorteio{
             System.out.print(numero + " ");
 
         }
-
-        //Número esta repetindo ...
-
     }
 }
